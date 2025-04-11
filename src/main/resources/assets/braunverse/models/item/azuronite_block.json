@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "braunverse:block/azuronite_block"
-  }
+  "parent": "braunverse:block/azuronite_block"
 }
