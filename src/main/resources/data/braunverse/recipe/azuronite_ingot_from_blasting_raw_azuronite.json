@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.5,
+  "group": "azuronite_ingot",
+  "ingredient": {
+    "item": "braunverse:raw_azuronite"
+  },
+  "result": {
+    "id": "braunverse:azuronite_ingot"
+  }
+}

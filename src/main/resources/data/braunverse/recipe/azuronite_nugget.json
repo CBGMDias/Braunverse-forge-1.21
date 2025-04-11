@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "braunverse:azuronite_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "braunverse:azuronite_nugget"
+  }
+}

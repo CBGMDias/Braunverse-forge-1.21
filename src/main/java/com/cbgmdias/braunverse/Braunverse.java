@@ -4,7 +4,6 @@ import com.cbgmdias.braunverse.block.ModBlocks;
 import com.cbgmdias.braunverse.item.ModCreativeModeTabs;
 import com.cbgmdias.braunverse.item.ModItems;
 import com.mojang.logging.LogUtils;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -60,6 +59,7 @@ public class Braunverse {
             event.accept(ModItems.BRAUNITE);
             event.accept(ModItems.RAW_AZURONITE);
             event.accept(ModItems.AZURONITE_INGOT);
+            event.accept(ModItems.AZURONITE_NUGGET);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

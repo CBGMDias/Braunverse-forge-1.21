@@ -34,6 +34,7 @@ public class ModCreativeModeTabs  {
 
                         output.accept(ModItems.RAW_AZURONITE.get());
                         output.accept(ModItems.AZURONITE_INGOT.get());
+                        output.accept(ModItems.AZURONITE_NUGGET.get());
 
                     }).build());
 

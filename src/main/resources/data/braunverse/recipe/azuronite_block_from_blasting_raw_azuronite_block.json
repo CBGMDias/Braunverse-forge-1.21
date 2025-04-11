@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 800,
+  "experience": 13.5,
+  "group": "azuronite_block",
+  "ingredient": {
+    "item": "braunverse:raw_azuronite_block"
+  },
+  "result": {
+    "id": "braunverse:azuronite_block"
+  }
+}
