@@ -1,6 +1,7 @@
 package com.cbgmdias.braunverse;
 
 import com.cbgmdias.braunverse.block.ModBlocks;
+import com.cbgmdias.braunverse.item.ModCreativeModeTabs;
 import com.cbgmdias.braunverse.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTab;
@@ -37,6 +38,8 @@ public class Braunverse {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -61,8 +64,11 @@ public class Braunverse {
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BRAUNITE_BLOCK);
-            event.accept(ModBlocks.RAW_AZURONITE_BLOCK);
             event.accept(ModBlocks.AZURONITE_BLOCK);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.RAW_AZURONITE_BLOCK);
         }
     }
 

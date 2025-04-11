@@ -5,5 +5,8 @@
 
   "block.braunverse.braunite_block": "Block of Braunite",
   "block.braunverse.raw_azuronite_block": "Block of Raw Azuronite",
-  "block.braunverse.azuronite_block": "Block of Azuronite"
+  "block.braunverse.azuronite_block": "Block of Azuronite",
+
+  "creativetab.braunverse.braunite_items": "Braunite Items",
+  "creativetab.braunverse.azuronite_items": "Azuronite Items"
 }

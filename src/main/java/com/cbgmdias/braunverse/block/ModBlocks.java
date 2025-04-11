@@ -22,20 +22,20 @@ public class ModBlocks {
     public static final RegistryObject<Block> BRAUNITE_BLOCK = registerBlock("braunite_block",
             () -> new Block(
                     BlockBehaviour.Properties.of()
-                            .strength(6f, 1200f)
+                            .strength(10f, 1200f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> RAW_AZURONITE_BLOCK = registerBlock("raw_azuronite_block",
             () -> new Block(
                     BlockBehaviour.Properties.of()
-                            .strength(3f, 6f)
+                            .strength(3f, 10f)
                             .requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> AZURONITE_BLOCK = registerBlock("azuronite_block",
             () -> new Block(
                     BlockBehaviour.Properties.of()
-                            .strength(5f, 30f)
+                            .strength(5f, 20f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.METAL)));
 
