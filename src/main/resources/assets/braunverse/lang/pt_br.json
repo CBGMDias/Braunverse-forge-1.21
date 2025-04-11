@@ -1,5 +1,9 @@
 {
   "item.braunverse.braunite": "Braunita",
   "item.braunverse.raw_azuronite": "Azuronita Bruta",
-  "item.braunverse.azuronite_ingot": "Barra de Azuronita"
+  "item.braunverse.azuronite_ingot": "Barra de Azuronita",
+
+  "block.braunverse.braunite_block": "Bloco de Braunita",
+  "block.braunverse.raw_azuronite_block": "Bloco de Azuronita Bruta",
+  "block.braunverse.azuronite_block": "Bloco de Azuronita"
 }

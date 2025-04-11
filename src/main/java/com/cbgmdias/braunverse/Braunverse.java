@@ -1,5 +1,6 @@
 package com.cbgmdias.braunverse;
 
+import com.cbgmdias.braunverse.block.ModBlocks;
 import com.cbgmdias.braunverse.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTab;
@@ -37,6 +38,7 @@ public class Braunverse {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -55,6 +57,12 @@ public class Braunverse {
             event.accept(ModItems.BRAUNITE);
             event.accept(ModItems.RAW_AZURONITE);
             event.accept(ModItems.AZURONITE_INGOT);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.BRAUNITE_BLOCK);
+            event.accept(ModBlocks.RAW_AZURONITE_BLOCK);
+            event.accept(ModBlocks.AZURONITE_BLOCK);
         }
     }
 
