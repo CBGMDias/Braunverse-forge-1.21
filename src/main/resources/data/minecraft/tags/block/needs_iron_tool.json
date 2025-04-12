@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "braunverse:azuronite_ore",
+    "braunverse:deepslate_azuronite_ore",
+    "braunverse:raw_azuronite_block",
+    "braunverse:azuronite_block"
+  ]
+}

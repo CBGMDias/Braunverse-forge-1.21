@@ -18,6 +18,9 @@ public class ModCreativeModeTabs  {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BRAUNITE.get()))
                     .title(Component.translatable("creativetab.braunverse.braunite_items"))
                     .displayItems((itemDisplayParameters, output) -> {
+                      output.accept(ModBlocks.BRAUNITE_ORE.get());
+                      output.accept(ModBlocks.DEEPSLATE_BRAUNITE_ORE.get());
+                      output.accept(ModBlocks.NETHER_BRAUNITE_ORE.get());
                       output.accept(ModBlocks.BRAUNITE_BLOCK.get());
 
                       output.accept(ModItems.BRAUNITE.get());
@@ -29,6 +32,8 @@ public class ModCreativeModeTabs  {
                     .withTabsBefore(BRAUNITE_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.braunverse.azuronite_items"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.AZURONITE_ORE.get());
+                        output.accept(ModBlocks.DEEPSLATE_AZURONITE_ORE.get());
                         output.accept(ModBlocks.RAW_AZURONITE_BLOCK.get());
                         output.accept(ModBlocks.AZURONITE_BLOCK.get());
 

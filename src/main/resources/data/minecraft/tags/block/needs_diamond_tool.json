@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "braunverse:braunite_ore",
+    "braunverse:deepslate_braunite_ore",
+    "braunverse:nether_braunite_ore",
+    "braunverse:braunite_block"
+  ]
+}

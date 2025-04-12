@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "braunverse:block/nether_braunite_ore"
+  }
+}

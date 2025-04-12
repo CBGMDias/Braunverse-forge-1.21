@@ -68,6 +68,11 @@ public class Braunverse {
         }
 
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.BRAUNITE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_BRAUNITE_ORE);
+            event.accept(ModBlocks.NETHER_BRAUNITE_ORE);
+            event.accept(ModBlocks.AZURONITE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_AZURONITE_ORE);
             event.accept(ModBlocks.RAW_AZURONITE_BLOCK);
         }
     }
