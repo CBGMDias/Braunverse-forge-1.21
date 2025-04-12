@@ -1,6 +1,7 @@
 package com.cbgmdias.braunverse.item;
 
 import com.cbgmdias.braunverse.Braunverse;
+import com.cbgmdias.braunverse.item.custom.WandItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -19,6 +20,11 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> AZURONITE_NUGGET = ITEMS.register("azuronite_nugget",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> AZURONITE_STICK = ITEMS.register("azuronite_stick",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BRAUNITE_WAND = ITEMS.register("braunite_wand",
+            () -> new WandItem(new Item.Properties().durability(32)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

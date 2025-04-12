@@ -24,6 +24,7 @@ public class ModCreativeModeTabs  {
                       output.accept(ModBlocks.BRAUNITE_BLOCK.get());
 
                       output.accept(ModItems.BRAUNITE.get());
+                      output.accept(ModItems.BRAUNITE_WAND.get());
 
                     }).build());
 
@@ -40,6 +41,7 @@ public class ModCreativeModeTabs  {
                         output.accept(ModItems.RAW_AZURONITE.get());
                         output.accept(ModItems.AZURONITE_INGOT.get());
                         output.accept(ModItems.AZURONITE_NUGGET.get());
+                        output.accept(ModItems.AZURONITE_STICK.get());
 
                     }).build());
 

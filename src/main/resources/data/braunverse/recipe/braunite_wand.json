@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "braunverse:azuronite_stick"
+    },
+    "B": {
+      "item": "braunverse:braunite"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "  B",
+    " A ",
+    "D  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "braunverse:braunite_wand"
+  }
+}

@@ -60,6 +60,7 @@ public class Braunverse {
             event.accept(ModItems.RAW_AZURONITE);
             event.accept(ModItems.AZURONITE_INGOT);
             event.accept(ModItems.AZURONITE_NUGGET);
+            event.accept(ModItems.AZURONITE_STICK);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
@@ -74,6 +75,10 @@ public class Braunverse {
             event.accept(ModBlocks.AZURONITE_ORE);
             event.accept(ModBlocks.DEEPSLATE_AZURONITE_ORE);
             event.accept(ModBlocks.RAW_AZURONITE_BLOCK);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.BRAUNITE_WAND);
         }
     }
 

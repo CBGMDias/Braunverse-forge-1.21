@@ -1,8 +1,10 @@
 {
   "item.braunverse.braunite": "Braunita",
+  "item.braunverse.braunite_wand": "Varinha de Braunita",
   "item.braunverse.raw_azuronite": "Azuronita Bruta",
-  "item.braunverse.azuronite_ingot": "Barra de Azuronita",
+  "item.braunverse.azuronite_ingot": "Lingote de Azuronita",
   "item.braunverse.azuronite_nugget": "Pepita de Azuronita",
+  "item.braunverse.azuronite_stick": "Barra de Azuronita",
 
   "block.braunverse.braunite_ore": "Minério de Braunita",
   "block.braunverse.deepslate_braunite_ore": "Minério de Braunita em Ardósia",
