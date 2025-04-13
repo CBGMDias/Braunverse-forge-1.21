@@ -29,6 +29,13 @@ public class ModBlocks {
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.AMETHYST)));
 
+    public static final RegistryObject<Block> ANCIENT_BRAUNITE_BLOCK = registerBlock("ancient_braunite_block",
+            () -> new Block(
+                    BlockBehaviour.Properties.of()
+                        .strength(-1.0F, 3600000.0F)
+                        .noLootTable()
+                        .sound(SoundType.AMETHYST_CLUSTER)));
+
     public static final RegistryObject<Block> RAW_AZURONITE_BLOCK = registerBlock("raw_azuronite_block",
             () -> new Block(
                     BlockBehaviour.Properties.of()

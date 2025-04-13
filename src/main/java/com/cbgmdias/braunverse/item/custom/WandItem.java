@@ -1,5 +1,6 @@
 package com.cbgmdias.braunverse.item.custom;
 
+import com.cbgmdias.braunverse.block.ModBlocks;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
@@ -18,6 +19,9 @@ import java.util.Map;
 public class WandItem extends Item {
     private static final Map<Block, Block> WAND_MAP =
             Map.ofEntries(
+                    Map.entry(ModBlocks.BRAUNITE_BLOCK.get(), ModBlocks.ANCIENT_BRAUNITE_BLOCK.get()),
+                    Map.entry(ModBlocks.ANCIENT_BRAUNITE_BLOCK.get(), ModBlocks.BRAUNITE_BLOCK.get()),
+
                     Map.entry(Blocks.STONE, Blocks.COBBLESTONE),
                     Map.entry(Blocks.COBBLESTONE, Blocks.STONE_BRICKS),
                     Map.entry(Blocks.STONE_BRICKS, Blocks.CRACKED_STONE_BRICKS),

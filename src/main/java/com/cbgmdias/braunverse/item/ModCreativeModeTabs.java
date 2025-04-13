@@ -22,6 +22,7 @@ public class ModCreativeModeTabs  {
                       output.accept(ModBlocks.DEEPSLATE_BRAUNITE_ORE.get());
                       output.accept(ModBlocks.NETHER_BRAUNITE_ORE.get());
                       output.accept(ModBlocks.BRAUNITE_BLOCK.get());
+                        output.accept(ModBlocks.ANCIENT_BRAUNITE_BLOCK.get());
 
                       output.accept(ModItems.BRAUNITE.get());
                       output.accept(ModItems.BRAUNITE_WAND.get());

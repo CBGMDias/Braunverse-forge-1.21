@@ -65,6 +65,7 @@ public class Braunverse {
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BRAUNITE_BLOCK);
+            event.accept(ModBlocks.ANCIENT_BRAUNITE_BLOCK);
             event.accept(ModBlocks.AZURONITE_BLOCK);
         }
 
